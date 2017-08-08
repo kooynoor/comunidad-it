@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de gmail</title>
+        <style type="text/css"> 
+            .gris{
+                width: 800px;
+                background-color: #d6d5d5;
+                margin-top: 5px;
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                text-shadow: 2px 2px 4px #AAA;
+                line-height: 20px;
+                text-align: justify;    
+            }
+             input{
+                margin-block-end: 10px;
+                border: 2px solid #e0e1e1;
+                border-radius: 5px 5px; 
+                font-size: 20px;
+                line-height: 40px;
+            }
+            .cumpleaños{
+                margin-block-end: 10px;
+                border: 2px solid #e0e1e1;
+                border-radius: 5px 5px; 
+                font-size: 20px;
+                line-height: 40px;
+            }
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            h3{
+                font-size: 25px;
+            }
+            .sexo{
+                font-size: 20px; 
+            }
+            p{
+                color: #8b8b8b;
+                font-size: 15px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario de gmail</h1>
+        <hr/>
+        <div class="gris">
+            <form action="login.html" method="get" enctype="application/x-www-form-urlencoded">
+        <span>
+            <h3>Name</h3>
+            <input type="text" name="first name" placeholder="First name" size="30" maxlength="20"/>
+        </span>
+        <span>
+            <input type="text" name="Last name" placeholder="Last name" size="30" maxlength="20"/>
+        </span>
+        <div>
+            <h3>Choose your ussername</h3>
+            <input type="text" name="username" pattern="^[a-zA-Z]+$" placeholder="pepito.gutierrez@gmail.com" size="70" maxlength="40"/>
+        </div>
+        <div>
+            <h3>Create a password</h3>
+            <input type="password" name="password" pattern="\d+" size="70" maxlength="10"/>
+        </div>
+        <div>
+            <h3>Confirm your password</h3>
+            <input type="password" name="password" pattern="\d+" size="70" maxlength="10"/>
+        </div>
+        </form>
+        </form>
+            <h3>Birthday</h3>
+            <form action="#">
+                <span>
+                <select name="month" class="cumpleaños">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+                </select>
+                </spam>
+                <spam>
+                <select name="day" class="cumpleaños">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+                </select>
+                </span>
+                <span>
+                <select name="year" class="cumpleaños">
+                <option value="1">1987</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+                </select>
+                </span>
+            </form>
+            <h3>Gender</h3>
+            <form>
+                <select name="opciones" class="cumpleaños">
+                    <option>i am</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                </select>
+            </form>
+            <form>
+                <h3>Mobile phone</h3>
+                <input type="text" name="mobile phone" pattern="\d+" size="70" maxlength="10"/>
+                <h3>Your current address</h3>
+                <input type="email" name="email" size="70"/>
+            </form>
+            <form>
+            <h3>Location</h3>
+            <form action="#">
+                <span>
+                <select name="Location" class="cumpleaños">
+                <option value="1">Argentina</option>
+                <option value="2">Colombia</option>
+                <option value="3">Venezuela</option>
+                <option value="4">Epaña</option>
+                </select>
+            </form>
+            <br/>
+            <br/>
+            <form>
+                <input type="image" src="login.png" value="login" name="submit" height="30" width="80"/>     
+            </form>
+        </div>           
+    </body>
+</html>

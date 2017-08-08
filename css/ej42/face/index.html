@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sing Up Facebook</title><!-- no puedo ajustar el largo de las cajas del formulario para que queden parejas-->
+                                       <!-- se puede modificar el tamaño del checkbox? -->
+        <style type="text/css"> 
+            .gris{
+                width: 550px;
+                background-color: #f2f4f5;
+                margin-top: 5px;
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                text-shadow: 2px 2px 4px #AAA;
+                line-height: 20px;
+                text-align: justify;    
+            }
+            input{
+                margin-block-end: 10px;
+                border: 2px solid #e0e1e1;
+                border-radius: 5px 5px; 
+                font-size: 20px;
+                line-height: 40px;
+            }
+            .cumpleaños{
+                margin-block-end: 10px;
+                border: 2px solid #e0e1e1;
+                border-radius: 5px 5px; 
+                font-size: 20px;
+                line-height: 40px;
+            }
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            h3{
+                font-size: 25px;
+            }
+            .sexo{
+                font-size: 20px; 
+            }
+            p{
+                color: #8b8b8b;
+                font-size: 15px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gris"> 
+            <h1>Sing Up</h1>
+            <h2>it´s free and always will be</h2>
+            <form action="login.html" method="get" enctype="application/x-www-form-urlencoded">
+                <span>
+                    <input type="text" name="first name" placeholder="First name" size="20" maxlength="20"/>
+                </span>
+                <span>
+                    <input type="password" name="password" placeholder="Password" size="20" maxlength="20"/>
+                </span>
+                <div>
+                    <input type="text" name="Movile number or email" placeholder="Movile number or email" size="50" maxlength="20"/>
+                </div>
+                <div>
+                    <input type="text" name="new password" placeholder="New password" size="50" maxlength="20"/>
+                </div>
+            </form>
+            <h3>Birthday</h3>
+            <form action="#">
+                <span>
+                    <select name="month" class="cumpleaños">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </spam>
+                <spam>
+                    <select name="day" class="cumpleaños">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </span>
+                <span>
+                    <select name="year" class="cumpleaños">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </span>
+            </form>
+            <form class="sexo">
+                <span>
+                    <input type="radio" name="sexo" value="1"/>Female
+                </span>
+                <span>
+                    <input type="radio" name="sexo" value="2"/>Male
+                </span>
+            </form>
+            <p>Be cliking Create Account, you agree to our <a href="#">Terms</a> and that</p>
+            <p>you have read our <a href="#">Data Policity</a>, including our <a href="#">Cookie Use.</a>You</p>
+            <p>
+                may receive SMS Notifications fron Facebook and can opt out
+            </p>
+            <p>
+                at any time    
+            </p>
+            <form>
+                <input type="image" src="login.png" value="login" name="submit" height="30" width="80"/>     
+            </form>            
+        </div>
+    </body>
+</html>
